@@ -19,11 +19,6 @@ export interface GameQuery {
 function App() {
   const [gameQuery, setGameQuery] = useState<GameQuery>({} as GameQuery);
 
-  //replaced with GameQuery
-  // const [selectedGenre, setSelectedGenre] = useState<Genre | null>(null);
-  // const [selectedPlatform, setSelectedPlatform] = useState<Platform | null>(
-  //   null
-  // );
   return (
     <>
       <Grid
